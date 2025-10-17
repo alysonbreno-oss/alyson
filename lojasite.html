@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Jogos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #e0f0ff;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      background-color: dodgerblue;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      background-color: dodgerblue;
+      padding: 20px;
+    }
+
+    .grid-container > div {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .item1 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      background-color: #222;
+      color: white;
+      font-size: 24px;
+    }
+
+    .game-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .game-title {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .game-price {
+      color: green;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .buy-button {
+      background-color: dodgerblue;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .buy-button:hover {
+      background-color: deepskyblue;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Loja de Jogos Online</h1>
+
+<div class="grid-container">
+  <div class="item1">🎮 Destaques da Semana</div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+1" alt="Jogo 1">
+    <div class="game-title">Super Aventura</div>
+    <div class="game-price">R$ 59,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+2" alt="Jogo 2">
+    <div class="game-title">Corrida Extrema</div>
+    <div class="game-price">R$ 89,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+3" alt="Jogo 3">
+    <div class="game-title">Batalha Espacial</div>
+    <div class="game-price">R$ 99,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+4" alt="Jogo 4">
+    <div class="game-title">Mundo Perdido</div>
+    <div class="game-price">R$ 39,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+5" alt="Jogo 5">
+    <div class="game-title">Simulador 2025</div>
+    <div class="game-price">R$ 149,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+
+  <div>
+    <img class="game-img" src="https://via.placeholder.com/200x120?text=Jogo+6" alt="Jogo 6">
+    <div class="game-title">Guerra Z</div>
+    <div class="game-price">R$ 79,90</div>
+    <button class="buy-button">Comprar</button>
+  </div>
+</div>
+
+</body>
+</html>
